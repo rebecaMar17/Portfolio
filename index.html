@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebeca Martín | Backend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <div id="mouse-glow"></div>
+
+    <nav>
+        <div class="logo">Rebeca<span>Dev</span></div>
+        <ul class="nav-links">
+            <li><button class="tab-btn active" onclick="openTab('inicio')">Inicio</button></li>
+            <li><button class="tab-btn" onclick="openTab('cv')">Mi CV</button></li>
+            <li><button class="tab-btn" onclick="openTab('proyectos')">Proyectos</button></li>
+        </ul>
+    </nav>
+
+    <main class="content-area">
+
+        <section id="inicio" class="tab-content active">
+            <div class="hero-grid">
+                
+                <div class="image-column">
+                    <div class="image-container">
+                        <img src="img/foto.jpg" alt="Rebeca Martín, Desarrolladora Backend" class="profile-pic">
+                    </div>
+                </div>
+
+                <div class="text-column hero-content">
+                    <h1><span id="typewriter" class="highlight"></span><span class="cursor">_</span></h1>
+                    <p class="subtitle">Desarrolladora Backend Junior. Construyendo la lógica que nadie ve, pero que lo mueve todo.</p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:rmart655@gmail.com" class="btn">✉️ Enviar Email</a>
+                        <a href="https://www.linkedin.com/in/rebeca-martin-sancho-6b6824294/" target="_blank" class="btn btn-outline">💼 LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards-grid">
+                <div class="about-me refined-card">
+                    <h3>Sobre mí</h3>
+                    <p>Tengo 20 años y mi pasión por la tecnología empezó donde empiezan las mejores historias: rompiendo cosas. De pequeña, trasteaba con los portátiles de casa intentando exprimirles rendimiento para jugar a videojuegos más potentes (y sí, me cargué más de un ordenador en el proceso).</p>
+                    <br>
+                    <p>A los 15 años descubrí que prefería crear antes que simplemente consumir, y di mis primeros pasos en el desarrollo web. Sin embargo, pronto me di cuenta de que no me bastaba con ver resultados en pantalla; necesitaba entender cómo funcionaban las cosas por debajo. Ese afán por destripar la lógica, los datos y los engranajes del software me llevó directa a mi verdadera vocación: el desarrollo Backend.</p>
+                </div>
+
+                <div class="tech-stack refined-card">
+                    <h3>Mi Tech Stack</h3>
+                    <div class="tags-icons">
+                        <span class="tag-icon"><i class="devicon-python-plain"></i> Python</span>
+                        <span class="tag-icon"><i class="devicon-java-plain"></i> Java</span>
+                        <span class="tag-icon"><i class="devicon-kotlin-plain"></i> Kotlin</span>
+                        <span class="tag-icon"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+                        <span class="tag-icon"><i class="fa-solid fa-database"></i> SQL</span>
+                        <span class="tag-icon"><i class="devicon-docker-plain"></i> Docker</span>
+                        <span class="tag-icon"><i class="devicon-git-plain"></i> Git</span>
+                        <span class="tag-icon"><i class="fa-solid fa-code-branch"></i> GitFlow</span>
+                        <span class="tag-icon"><i class="fa-solid fa-tags"></i> XML</span>
+                    </div>
+                    <h4 class="radar-title">En el radar (Estudiando):</h4>
+                    <div class="tags-icons radar-tags">
+                        <span class="tag-icon tag-learning"><i class="fa-solid fa-memory"></i> Ensamblador</span>
+                        <span class="tag-icon tag-learning"><i class="devicon-ruby-plain"></i> Ruby</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv" class="tab-content">
+            <h2 class="section-title">Trayectoria y Formación</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Desarrolladora de Software Junior</h3>
+                        <span class="date">Diciembre 2025 - Presente | Factor Libre</span>
+                        <p>Desarrollo activo centrado en el ecosistema <strong>Odoo</strong> y en la evolución de su producto propio, <strong>Gextia</strong>. Creación y mantenimiento de módulos a medida, resolución de incidencias complejas, optimización de código (Python/PostgreSQL) y trabajo continuo con arquitecturas robustas empresariales.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Prácticas en Desarrollo Backend</h3>
+                        <span class="date">Septiembre 2025 - Diciembre 2025 | Factor Libre</span>
+                        <p>Primera inmersión profesional. Introducción intensiva al framework de Odoo, aprendizaje de flujos de trabajo en equipo, control de versiones (Git) y metodologías de desarrollo en un entorno de producción real.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                        <span class="date">2023 - 2025</span>
+                        <p>Formación integral en programación orientada a objetos, acceso a bases de datos relacionales, diseño de software y sistemas informáticos.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="proyectos" class="tab-content">
+            <h2 class="section-title">Mis Últimos Repositorios</h2>
+            <div id="github-repos" class="repo-grid">
+                <p>Conectando con GitHub...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
