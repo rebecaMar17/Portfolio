@@ -23,5 +23,3 @@ Actualmente trabajo a diario con el ecosistema **Odoo** (Gextia) y arquitecturas
 * **LinkedIn:** [Rebeca Martín Sancho](https://www.linkedin.com/in/rebeca-martin-sancho-6b6824294/)
 * **Email:** rmart655@gmail.com
 
----
-*Construyendo la lógica que nadie ve, pero que lo mueve todo.* ⌨️
